@@ -30,6 +30,6 @@ struct FizzBuzzAlgoModel: Identifiable {
     let elseStatement: (String) -> String
     
     var actualFizzBuzzCode: String {
-        "FizzBuzz in \(name)"
+        "FizzBuzz in \(languageName)"
     }
 }

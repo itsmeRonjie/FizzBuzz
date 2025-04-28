@@ -10,8 +10,7 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            
-            BackgroundTextView(text: "FizzBuzzView", color: .red)
+            FizzBuzzView()
                 .tabItem {
                     Label("FizzBuzz", systemImage: "bubbles.and.sparkles")
                 }
@@ -19,7 +18,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Code", systemImage: "note.text")
                 }
-            BackgroundTextView(text: "AboutView", color: .blue)
+            AboutView()
                 .tabItem {
                     Label("About", systemImage: "info.bubble.fill")
                 }

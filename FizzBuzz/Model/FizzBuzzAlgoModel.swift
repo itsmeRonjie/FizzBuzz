@@ -42,7 +42,7 @@ struct FizzBuzzAlgoModel: Identifiable {
         let printInt = printInt()
         
         let codeInLoop = """
-        \(ifStatement(mod15, codeFizzBuzz)) \(elseifStatement(mod3,codeFizz.indent())) \(elseifStatement(mod5,codeBuzz.indent())) \(elseStatement(printInt.indent()))
+        \(ifStatement(mod15, codeFizzBuzz)) \(elseifStatement(mod3, codeFizz.indent())) \(elseifStatement(mod5, codeBuzz.indent())) \(elseStatement(printInt.indent()))
         """
         
         let mainCode = """
